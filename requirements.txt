@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+alembic
+pydantic[email]
+pydantic-settings
+python-jose
+passlib
+bcrypt==4.0.1
+azure-storage-blob
+ultralytics
+python-multipart
+ultralytics

@@ -1,0 +1,24 @@
+# Virtual env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# Modelos
+models/*.pt
+vision/dataset/models/*.pt
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Testes
+test_blob.py
+test_db.py

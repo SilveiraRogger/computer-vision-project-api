@@ -1,0 +1,7 @@
+names:
+- not_safety_shoe
+- safety_shoe
+nc: 2
+path: /home/rogger/Documentos/proj/api/vision/dataset
+train: train/images
+val: valid/images
