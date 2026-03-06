@@ -16,7 +16,7 @@ yaml_path = Path(__file__).parent / "dataset.yaml"
 with open(yaml_path, "w") as f:
     yaml.dump(config, f)
 
-model = YOLO("yolov8n.pt")
+model = YOLO("yolo11n.pt")
 model.train(
     data=str(yaml_path),
     epochs=2,

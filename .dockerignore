@@ -1,0 +1,11 @@
+cat > .dockerignore << 'EOF'
+.venv
+.vscode
+app/vision
+runs
+models
+uploads
+__pycache__
+*.pyc
+.env
+EOF
