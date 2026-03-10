@@ -19,7 +19,7 @@ with open(yaml_path, "w") as f:
 model = YOLO("yolo11n.pt")
 model.train(
     data=str(yaml_path),
-    epochs=2,
+    epochs=500,
     imgsz=640,
     batch=16,
     augment=True,
